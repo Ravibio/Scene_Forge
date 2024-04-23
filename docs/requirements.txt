@@ -56,7 +56,7 @@ pyyaml==6.0
     # via
     #   mkdocs
     #   pyyaml-env-tag
-pyyaml-env-tag==0.1
+#pyyaml-env-tag==0.1
     # via mkdocs
 #six==1.16.0
     # via python-dateutil
