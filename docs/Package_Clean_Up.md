@@ -41,4 +41,4 @@ The inspector provides several options for cleaning the Scene Forge tool. In cas
 # Troubleshoot
 
 If you encounter any errors after deleting files you can always restore them from the Recycle Bin or Trash and try to find out the issue.
-If you have any errors that you are unable to solve you can find help in our Discord group https://discord.gg/BGsYeCvJ.
+If you have any errors that you are unable to solve you can find help in our [Discrod](group:https://discord.gg/BGsYeCvJ).

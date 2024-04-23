@@ -2,7 +2,8 @@
 # Default Scene Forge shortcuts
 
 This is a list of the default shortcuts. There are several states or groups of shortcuts that can be used in certain functionalities of the tool.
->By default the shortcuts will be displayed at the bottom of the scene view. This can be enabled/disabled by going to **Tools/Scene Forge** and selecting **Shortcuts Display**.
+
+>*By default the shortcuts will be displayed at the bottom of the scene view. This can be enabled/disabled by going to **Tools/Scene Forge** and selecting **Shortcuts Display**.*
 
 ---
 

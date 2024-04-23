@@ -23,19 +23,19 @@ By default Scene Forge locates and loads its assets automatically by searching f
 
 9. Save the changes and enable the tool from the top bar **Tools/Scene Forge/Enable** or by pressing **F5**
 
-11. If the error is still present you can try and reinstall the tool. Additionally you can find help in our Discrod group:https://discord.gg/BGsYeCvJ.
+11. If the error is still present you can try and reinstall the tool. Additionally you can find help in our [Discrod](group:https://discord.gg/BGsYeCvJ).
 
 # HDRI Heaven skyboxes
 
-Links to the HDRIs used in the Time of Day Presets for URP. All HDRIs are from HDRI Heaven :**https://hdri-haven.com/**.
+Links to the HDRIs used in the Time of Day Presets for URP. All HDRIs are from [HDRI Heaven](https://hdri-haven.com/).
  
-- **[Dawn]**(https://hdri-haven.com/hdri/clear-sky-afternoon-sky-dome) |
-- **Dawn Foggy** (https://hdri-haven.com/hdri/cloudy-sunset-sky-dome)
-- **Day** (https://hdri-haven.com/hdri/clear-sky-dome)
-- **Dusk** (https://hdri-haven.com/hdri/clear-sky-sunset-sky-dome)
-- **Night and Dark Night** (https://hdri-haven.com/hdri/starry-night-sky-dome)
+- ### [Dawn](https://hdri-haven.com/hdri/clear-sky-afternoon-sky-dome) 
+- ### [Dawn Foggy](https://hdri-haven.com/hdri/cloudy-sunset-sky-dome)
+- ### [Day](https://hdri-haven.com/hdri/clear-sky-dome)
+- ### [Dusk](https://hdri-haven.com/hdri/clear-sky-sunset-sky-dome)
+- ### [Night and Dark Night](https://hdri-haven.com/hdri/starry-night-sky-dome)
 
-All HDRIs listed in HDRI Heaven are licenced as CC0 and can be downloaded instantly and anonymously, giving you complete freedom and privacy. No payments, no premium accounts, no donationware. No restrictions in use.
+*All HDRIs listed in HDRI Heaven are licenced as CC0 and can be downloaded instantly and anonymously, giving you complete freedom and privacy. No payments, no premium accounts, no donationware. No restrictions in use.*
 
 
 

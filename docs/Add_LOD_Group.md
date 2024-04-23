@@ -44,7 +44,7 @@ In this structure the function looks how the names of the child objects end and 
 >*The function sets all letters to lowercase before comparing with the keywords list. Applies for **collider** keywords as well. Its **not** key sensitive.*
 
 
-3. **No Structure**
+ 3. **No Structure**
 
 	If none of the above structures are found by the function. The objects will be sorted by polycount and assigned to the LOD Group.
 
