@@ -34,6 +34,6 @@ plugins:
           options:
             docstring_style: sphinx
 markdown_extensions:
-  #- markdown_include.include:
-  #    base_path: docs
+  - markdown_include.include:
+      base_path: docs
   - admonition
