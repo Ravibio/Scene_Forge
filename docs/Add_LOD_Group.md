@@ -11,42 +11,47 @@ There are no user controllable property fields.
 
 The **Add LOD Group** functionality works with several LOD object structures:
 
-1. **Numbered object structure**
+---
 
-	Uses the naming of the child objects in order to determine the LOD objects and levels.
-	
-	**Example structure:**
-	
-	- Rock_LODs
-	
-		- Rock_LOD_0
-		- Rock_LOD_1
-		- Rock_LOD_2
-		- Rock_Collider
-	
-	With this structure the function will look at the **last number** of each child and sort the objects based on that. If the function finds any objects that end with **Collider** or **Coll** the function will exclude them from the LOD Group and instead assign them a **Mesh Collider** Component, otherwise every object will get a **Mesh Collider**. 
+### **Numbered object structure**
 
-2. **Keywords object structure**
+Uses the naming of the child objects in order to determine the LOD objects and levels.
+	
+**Example structure:**
+	
+- Rock_LODs
+	
+	- Rock_LOD_0
+	- Rock_LOD_1
+	- Rock_LOD_2
+	- Rock_Collider
+	
+With this structure the function will look at the **last number** of each child and sort the objects based on that. If the function finds any objects that end with **Collider** or **Coll** the function will exclude them from the LOD Group and instead assign them a **Mesh Collider** Component, otherwise every object will get a **Mesh Collider**. 
 
-	This method uses a list of keywords in order to determine the LOD objects and levels.
+---
+
+### **Keywords object structure**
+
+This method uses a list of keywords in order to determine the LOD objects and levels.
 	
-	**Example structure:**
+**Example structure:**
 	
-	- Rock_LODs
+- Rock_LODs
 	
-		- Rock_High
-		- Rock_Med
-		- Rock_Low
-		- Rock_Collider
+	- Rock_High
+	- Rock_Med
+	- Rock_Low
+	- Rock_Collider
 
 In this structure the function looks how the names of the child objects end and attempts to create a LOD Group based on that. The keywords are **"high", "med", "medium", "low"**.  In the same manner as structure 1, the function will set **Colliders** based on the **Collider** or **Coll** keywords.
 
 >*The function sets all letters to lowercase before comparing with the keywords list. Applies for **collider** keywords as well. Its **not** key sensitive.*
 
+---
 
- 3. **No Structure**
+ ### **No Structure**
 
-	If none of the above structures are found by the function. The objects will be sorted by polycount and assigned to the LOD Group.
+If none of the above structures are found by the function. The objects will be sorted by polycount and assigned to the LOD Group.
 
 # Limitations
 
