@@ -41,7 +41,7 @@ Simple explanation of what the different conversion methods are:
 -  **Random** does what you've already guessed. It simply chooses a random prefab for every object. Can be useful when dealing with prefabs that don't have much size variation.
 -  **Match Specific Axis** unlike Match Model Size this method only looks at the specified axis of the prototype objects size and finds a match for it. For example if you have trees with different heights using this method will ensure that every tree prefab will match the prototype objects **Y** size perfectly instead of its average.
 
-Once you have set your settings the final step it to click the **Convert** button. The workflow is non-destructive so you can experiments and iterate with different settings and prefabs. 
+Once you have set your settings the final step is to click the **Convert** button. The workflow is non-destructive so you can experiments and iterate with different settings and prefabs. 
 
 #
 That concludes this very basic explanation of the core feature that Scene Forge empowers. Feel free now to take your exploration further by delving deeper into this documentation, or by taking the initiative to experiment and discover new ways to leverage the tool in your Unity projects. 
