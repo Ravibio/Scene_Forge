@@ -45,11 +45,11 @@ This method uses a list of keywords in order to determine the LOD objects and le
 
 In this structure the function looks how the names of the child objects end and attempts to create a LOD Group based on that. The keywords are **"high", "med", "medium", "low"**.  In the same manner as structure 1, the function will set **Colliders** based on the **Collider** or **Coll** keywords.
 
->*The function sets all letters to lowercase before comparing with the keywords list. Applies for **collider** keywords as well. Its **not** key sensitive.*
+*The function sets all letters to lowercase before comparing with the keywords list. Applies for **collider** keywords as well. Its **not** key sensitive.*
 
 ---
 
- ### **No Structure**
+### **No Structure**
 
 If none of the above structures are found by the function. The objects will be sorted by polycount and assigned to the LOD Group.
 
