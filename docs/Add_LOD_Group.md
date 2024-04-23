@@ -24,6 +24,7 @@ The **Add LOD Group** functionality works with several LOD object structures:
 	This method uses a list of keywords in order to determine the LOD objects and levels.
 	
 	**Example structure:**
+	
 	- Rock_LODs
 		- Rock_High
 		- Rock_Med
@@ -32,7 +33,8 @@ The **Add LOD Group** functionality works with several LOD object structures:
 
 In this structure the function looks how the names of the child objects end and attempts to create a LOD Group based on that. The keywords are **"high", "med", "medium", "low"**.  In the same manner as structure 1, the function will set **Colliders** based on the **Collider** or **Coll** keywords.
 
->The function sets all letters to lowercase before comparing with the keywords list. Applies for **collider** keywords as well. Its **not** key sensitive.
+>*The function sets all letters to lowercase before comparing with the keywords list. Applies for **collider** keywords as well. Its **not** key sensitive.*
+
 
 3. **No Structure**
 	If none of the above structures are found by the function. The objects will be sorted by polycount and assigned to the LOD Group.
@@ -41,6 +43,7 @@ In this structure the function looks how the names of the child objects end and 
 Won't work with complex objects with **more than 1 level of children**. If the function encounters a complex object it will skip it and write a log in the console.
 
 **Complex object structure example:**
+
 - Parent
 	- Level 1 child
 		- Level 2 child
