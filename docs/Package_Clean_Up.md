@@ -38,7 +38,7 @@ The inspector provides several options for cleaning the Scene Forge tool. In cas
  3.  Once you have cleaned your scenes you can delete the root folder of the Scene Forge tool. If you don't know where it is you can use the **Search Bar** to locate it. The root folder is called "Scene Forge".
  4.  Restart your project in order to confirm that everything was removed cleanly.
 
-#### Important, make sure that your scenes are not using any of the Time of Day Preset before deleting! They are found inside Scene Forge/Assets/Post Proccess Volumes before deleting.
+#### Important, make sure that your scenes are not using any of the Time of Day Preset before deleting! They are found inside Scene Forge/Assets/Post Proccess Volumes. You could loose your scene lights, HDRIs or PP Volumes!
 
 # Troubleshoot
 
