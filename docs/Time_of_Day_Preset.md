@@ -4,12 +4,15 @@ Allows to easily change the lighting and atmosphere of your scenes by choosing f
 # Properties
 To apply a preset you have to have **no active selection** and then press **Shift + S**. You will find the preset inside the **Time of Day Presets** menu. 
 **Available presets for all pipelines:**
+
 - Dawn
 - Dawn Foggy
 - Day
 - Dusk
 - Night
 - Dark Night
+
+
 # HDRP
 In High-Definition Render Pipeline (HDRP)  the function uses Volumes to achieve the desired effect. Using post processing and physically based sky volume.
 > I recommend cloning the volumes to another folder before making any changes to them.

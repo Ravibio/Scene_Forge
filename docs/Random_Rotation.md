@@ -7,7 +7,7 @@ Changes the rotation of selected game objects in you scene by a given amount.
 
 After selecting a game object from the scene you can use the Random Rotation function by pressing **Shift + S** and selecting **Randomize/Random Rotation**.
 
-Inspector Properties:
+**Inspector Properties:**
 
 - **Seed** (Different values of seed will generate different end results)
 - **Randomize Seed** (When checked the function will automatically generate different seed values)
