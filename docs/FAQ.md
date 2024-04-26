@@ -23,7 +23,7 @@ By default Scene Forge locates and loads its assets automatically by searching f
 
 9. Save the changes and enable the tool from the top bar **Tools/Scene Forge/Enable** or by pressing **F5**
 
-11. If the error is still present you can try and reinstall the tool. Additionally you can find help in our [Discrod](group:https://discord.gg/BGsYeCvJ).
+11. If the error is still present you can try and reinstall the tool. Additionally you can find help in our [Discrod](https://discord.gg/9rUWFx9vxh).
 
 # HDRI Heaven skyboxes
 

@@ -21,6 +21,7 @@ nav:
   - Package Clean Up: Package_Clean_Up.md
   - Shortcuts: Shortcuts.md
   - FAQ: FAQ.md
+  - Reporting Issues: Reporting_Issues.md
 
 theme:
   name: readthedocs

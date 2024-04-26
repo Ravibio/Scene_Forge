@@ -50,4 +50,4 @@ Once you have set your settings the final step is to click the **Convert** butto
 ---
 That concludes this very basic explanation of the core feature that Scene Forge empowers. Feel free now to take your exploration further by delving deeper into this documentation, or by taking the initiative to experiment and discover new ways to leverage the tool in your Unity projects. 
 
-If you have any questions, feedback, or simply want to connect with fellow users and me, feel free to join our [Discrod](group:https://discord.gg/BGsYeCvJ).
+If you have any questions, feedback, or simply want to connect with fellow users and me, feel free to join our [Discrod](https://discord.gg/9rUWFx9vxh).
