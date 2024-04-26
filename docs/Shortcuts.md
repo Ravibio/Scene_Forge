@@ -26,6 +26,7 @@ This is a list of the default shortcuts. There are several states or groups of s
 ---
 
 **Area Scatter**
+
 - **Space** is used to place/scatter prefabs
 - **Shift + S** is used to open the Area Scatter presets settings inspector
 - **Shift + D** is used to change the scatter radius
