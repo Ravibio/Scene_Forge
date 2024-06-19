@@ -7,10 +7,12 @@ nav:
   - Prototype Objects: Prototype_Objects.md
   - Collections: Collections.md
   - Objects Convert: Object_Convert.md
+  - Quick Convert: Quick_Convert.md
   - Object Presets: Object_Presets.md
   - Add LOD Group: Add_LOD_Group.md
   - Composition Guides: Composition_Guides.md
   - Line Array: Line_Array.md
+  - Radial Array: Radial_Array.md
   - Random Rottation: Random_Rotation.md
   - Random Scale: Random_Scale.md
   - Time of Day Presets: Time_of_Day_Preset.md

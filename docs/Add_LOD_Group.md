@@ -5,6 +5,8 @@ Adds the LOD Group component to the selected objects and assigns the appropriate
 
 # Properties
 
+To use it **select an object/objects**, press **Shift+S** then **Object/Add LOD group** or from the toolbar **Tools/Scene Forge/Functions/Add LOD Group**.
+
 There are no user controllable property fields.
 
 # Requirements

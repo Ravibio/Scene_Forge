@@ -1,11 +1,11 @@
 ﻿
 # Line Array
 
-Allows you to create a linear array of objects or components along a specified path or direction. The Line Array function can be used to duplicate and place objects or elements in a linear pattern, with control over the spacing, number of duplicates, and direction.
+Allows you to create a linear array of objects along a specified path or direction. The Line Array function can be used to duplicate and place objects or elements in a linear pattern, with control over the spacing, number of duplicates, and direction.
 
 # Properties
 
-After selecting a game object from the scene you can use the Line Array function by pressing **Shift + S** and selecting **Line Array**.
+After selecting a game object from the scene you can use the Line Array function by pressing **Shift + S** and selecting **Arrays/Line Array**.
 
 Control over the array is done using shortcuts:
 

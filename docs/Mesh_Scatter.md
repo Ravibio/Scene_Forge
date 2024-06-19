@@ -13,13 +13,14 @@ The scattering is done using a list of methods. Each method is used to scatter o
 **Preset Properties:**
 
 - **Name** (Name of the preset)
-
-  - **Scatter Density** (Defines the density of scattered objects)
-  
+- **Coverage** (Percentage based on scattered prefab and targets area) 
+- **Scatter Density** (Defines the density of scattered objects)  
 - **Limit Object Count** (If checked ignores the **Scatter Density** and instead sets object count between **Min Count** and **Max Count**)
 - **Prefab Up Vector** (Defines the up vector of all prefabs)
 - **Use Mesh Normal** (Should the prefab be oriented based on the surface normal)
 - **Random Rotation** (Generates random rotation between the specified min and max values)
+- **Scatter Height** (Defines maximum and minimum scatter height based on the target, **NOT global**)
+- **Fall-Off Curve** (Scatter density curve)
 
 - **Methods**
 

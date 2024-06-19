@@ -11,6 +11,7 @@ Adding a new collection properties:
 
 - Name (Name of the collection)
 - Color (Color of the prototype objects inside the collection)
+- Secondary Color (Used for placeholder objects with two materials, like trees, houses, etc.)
 
 Edit collections properties:
 
