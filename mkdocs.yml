@@ -31,7 +31,6 @@ theme:
   highlightjs: true
 plugins:
   - search
-  - pdf-export
   - mkdocstrings:
       handlers:
         # See: https://mkdocstrings.github.io/python/usage/
