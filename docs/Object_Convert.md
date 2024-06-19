@@ -39,3 +39,4 @@ The option will only be available if there are Scene Forge collections present i
 
 - The conversion will only work on prototype objects that have the **SF_Prototype** component attached and are inside a collection.
 - The prototype objects must have a Renderer component attached at the parent. (Only that will be used)
+

@@ -22,4 +22,4 @@ Selected object.
 
 # Limitations
 
-Doesn't work for multiple selected objects as of now. To make it work group them all together.
+Doesn't work for multiple selected objects. To make it work group them all together.

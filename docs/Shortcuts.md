@@ -1,7 +1,7 @@
 ﻿
 # Default Scene Forge shortcuts
 
-This is a list of the default shortcuts. There are several states or groups of shortcuts that can be used in certain functionalities of the tool.
+This is a list of the default shortcuts. There are several states or groups of shortcuts that can be used in certain functionalities of the tool. You can modify the default shortcuts from the settings menu located in **Tools/Scene Forge/Settings**.
 
 >*By default the shortcuts will be displayed at the bottom of the scene view. This can be enabled/disabled by going to **Tools/Scene Forge** and selecting **Shortcuts Display**.*
 
@@ -47,5 +47,15 @@ This is a list of the default shortcuts. There are several states or groups of s
 - **Scroll Up** is used to increase the object count in the array
 - **Scroll Down** is used to decrease the object count in the array
 - **Shift + X** is used to cycle the direction of the array. **X > -X > Y > -Y > Z > -Z**
+- **Enter** is used to confirm the array
+- **Esc** is used to cancel the array
+
+---
+
+**Radial Array**
+
+- **Scroll Up** is used to increase the object count in the array
+- **Scroll Down** is used to decrease the object count in the array
+- **Shift + X** is used to cycle the direction of the array. **X > Y > Z**
 - **Enter** is used to confirm the array
 - **Esc** is used to cancel the array
