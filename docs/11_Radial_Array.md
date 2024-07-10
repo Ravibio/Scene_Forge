@@ -1,4 +1,5 @@
-﻿# Radial Array
+﻿
+# Radial Array
 
 Allows you to create a radial array of objects based on a specified direction. The Radial Array function can be used to duplicate and place objects or elements in a circular pattern, with control over the spacing, number of duplicates, and direction.
 

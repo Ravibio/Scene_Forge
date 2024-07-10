@@ -10,18 +10,15 @@ Text descriptions can only go so far and I often ask users for more information 
 
 ---
 
-## The fastest way to help you is with a screenshot, video or gif.
+## Reporting
 
 ### Easiest way to connect with me is [Discord](https://discord.gg/9rUWFx9vxh)
 
 **What to include:**
 
-- [gif](https://getsharex.com/)
-- [Screencap](https://duckduckgo.com/?q=how+to+take+a+screenshot&t=ffab&ia=web)
-- [Windows 10 (windows + shift + S)](https://www.howtogeek.com/226280/how-to-take-screenshots-in-windows-10/)
- - [Mac OS (Shift-Command-3)](https://support.apple.com/en-us/HT201361)
-- First console debug error
-- First error shows point of failure. Subsequent errors are less important
+- Detailed explanation of the error. (Describe what exactly were you trying to do) 
+- Error images (If available)
+- First console debug error (first error shows point of failure. Subsequent errors are less important)
 - Steps to reproduce the issue
 - Unity version and Pipeline
 
