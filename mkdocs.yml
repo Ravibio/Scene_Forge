@@ -2,7 +2,7 @@ site_name: Scene Forge
 nav:
 - Getting Started:
   - What is Scene Forge?: index.md
-  - Getting Started: 02_Getting_Started.md
+  - Getting Started: Getting_Started.md
 - Systems:
   - Prototype Objects: 03_Prototype_Objects.md
   - Collections: 04_Collections.md
