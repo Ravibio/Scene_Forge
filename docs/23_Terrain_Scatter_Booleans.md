@@ -15,8 +15,9 @@ Create a  **SF Boolean Group** tag  and set it to the boolean group object
 Create a simple box and add it to the group as a child
 
 **4. Presets**
-At this point in order to use you need to have a scatter preset, Terrain Scatter Group and a terrain. If you don't check out the Quick Start in the **Terrain Scatter** page in this documentation.
-Once you have a preset, a terrain and a terrain scatter group place you boolean object on the terrain and press **Update**
+At this point in order to use you need to have a terrain scatter preset, Terrain Scatter Group and a terrain. If you don't check out the Quick Start in the [**Terrain Scatter**](https://scene-forge.readthedocs.io/en/latest/22_Terrain_Scatter/) page in this documentation.
+
+Once you have a preset, a terrain and a terrain scatter group, press **Update** on the Boolean Group or Scatter Group game object.
 
 ## Notes
 

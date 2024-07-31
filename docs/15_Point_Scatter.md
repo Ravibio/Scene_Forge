@@ -9,11 +9,11 @@ Used to scatter chosen prefabs on surfaces by simple point and click. To scatter
 You can open the point scatter settings inspector by pressing **Shift + S** and navigating to **Scatter/Point Scatter/Presets Editor** or the top bar **Tools/Scene Forge/Scatter/Point Scatter**.
 
 **Preset Properties:**
-
 - **Name** (Name of the preset)
 - **Hit Layers** (List of layers that the point scatter raycast will collide with) 
-- **Use Surface Normal** (Should the prefab be oriented based on the surface normal)
-- **Random Rotation** (Generates random rotation between the specified min and max values)
+- **Align with normal (%)** (Aligns the object with the surface up direction based on %)
+- **Align with direction (%)** (Aligns the object with the surface forward direction based on %)
+- **Add random rotation (%)** (Allows you to add random rotation around the local orientation of the object. **Note: this happens after the object has been aligned with the terrain and can cause unexpected results if using both**)
 - **Prefab Properties**
 
 	- **Weight** (The chance of this prefab being placed)
@@ -32,6 +32,8 @@ New point scattering shortcuts will now be available:
 - **Space Bar** key is used to place a prefab at mouse position.
 - **Shift + S** keys are used to open the Point scatter presets editor inspector
 - **Esc** key is used to exit Point Scattering
+- **R** key is used to change the next object to be placed
+- **T** key is used to show/hide the handles
 
 
 # Requirements

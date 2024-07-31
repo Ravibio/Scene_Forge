@@ -18,7 +18,9 @@ The scattering is done using a list of methods. Each method is used to scatter o
 - **Limit Object Count** (If checked ignores the **Scatter Density** and instead sets object count between **Min Count** and **Max Count**)
 - **Prefab Up Vector** (Defines the up vector of all prefabs)
 - **Use Mesh Normal** (Should the prefab be oriented based on the surface normal)
-- **Random Rotation** (Generates random rotation between the specified min and max values)
+- **Align with normal (%)** (Aligns the object with the surface up direction based on %)
+- **Align with direction (%)** (Aligns the object with the surface forward direction based on %)
+- **Add random rotation (%)** (Allows you to add random rotation around the local orientation of the object. **Note: this happens after the object has been aligned with the terrain and can cause unexpected results if using both**)
 - **Scatter Height** (Defines maximum and minimum scatter height based on the target, **NOT global**)
 - **Fall-Off Curve** (Scatter density curve)
 
@@ -47,8 +49,9 @@ New point scattering shortcuts will now be available:
 
 # Requirements
 
-- Scene Forge tool is active
-- Selecting a Mesh Scatter Preset
+- **Scene Forge tool is active**
+- **Selecting a Mesh Scatter Preset**
+- **Convex Colliders** - If using Mesh Colliders make sure that they can be set to Convex. The algorithm uses method [ClosestPoint()](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Collider.ClosestPoint.html) in order to determine if a point is inside the collider or not. This method requires that Mesh Colliders are set to Convex = True. The program will automatically try and set Convex to True for the duration of the process but if your mesh exceeds the limit a warning will appear. **You can disable the use of "ClosestPoint()" in the preset settings but that will increase process times**. (Mesh Collider Limits)
 
 # Limitations
 

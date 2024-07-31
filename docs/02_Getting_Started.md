@@ -12,6 +12,18 @@ Enabling and disabling the tool can be done in the same two ways:
 -  Pressing the **F5** key.
 
 
+# Where are the things?
+
+Once enabled most features become accessible through the use of shortcuts.
+The most commonly used are:
+- **Shift + S** used to open the functions menu
+- **Shift + A** used to add prototype objects to the scene
+
+>**Make sure that the scene view is the current active window when using shortcuts.**
+
+ You can check all available shortcuts [here](https://scene-forge.readthedocs.io/en/latest/19_Shortcuts/). 
+Most features are also available on the tool bar at the top of the screen, **Tools/Scene Forge**.
+
 # Workflow and Components
 
 Prototyping a scene using Scene Forge consists of two basic steps.
@@ -50,4 +62,12 @@ Once you have set your settings the final step is to click the **Convert** butto
 ---
 That concludes this very basic explanation of the core feature that Scene Forge empowers. Feel free now to take your exploration further by delving deeper into this documentation, or by taking the initiative to experiment and discover new ways to leverage the tool in your Unity projects. 
 
+
+### More features to explore?
+- **[Point Scatter](https://scene-forge.readthedocs.io/en/latest/15_Point_Scatter/)**
+- **[Area Scatter](https://scene-forge.readthedocs.io/en/latest/16_Area_Scatter/)**
+- **[Mesh Scatter](https://scene-forge.readthedocs.io/en/latest/17_Mesh_Scatter/)**
+- **[Terrain Scatter](https://scene-forge.readthedocs.io/en/latest/22_Terrain_Scatter/)**
+
+---
 If you have any questions, feedback, or simply want to connect with fellow users and me, feel free to join our [Discrod](https://discord.gg/9rUWFx9vxh).

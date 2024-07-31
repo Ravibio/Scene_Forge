@@ -39,14 +39,14 @@ Links to the HDRIs used in the Time of Day Presets for URP. All HDRIs are from [
 
 # How will the tool change my project?
 
-Upon importing, the package will be placed inside the **Editor** folder in your project. Once there a manager script will create another folder called **"SceneForge"** in your project and move two scripts there. This is done in order to allow for those scripts to be instantiated (you can instantiate mono scripts from the Editor folder).
+Upon importing, the package will be placed inside the **Editor** folder in your project. Once there a manager script will create another folder called **"SceneForge"** in your project and move several scripts there. This is done in order to allow for those scripts to be instantiated (you can't instantiate mono scripts from the Editor folder).
 
-- Assets/Editor/Scene Forge (The majority of scripts and assets)
-- Assets/SceneForge (Two mono behavior scripts)
+- **Your Project Folder/Assets/Editor/Scene Forge** (The majority of scripts and assets)
+- **Your Project Folder/Assets/SceneForge** (Several mono behavior scripts)
 
 ### Building your project
 
-When building your project Unity ignores everything that is inside the **Editor** (Assets/Editor) folder. The two scripts inside **Assets/SceneForge** are made to only execute inside the editor, so in theory there will not not cause any issues. Though **I do not** recommend leaving them inside your scenes as they are only used in the editor. In order to clean them from your scenes before build, check **Package Clean Up** page in this documentation.
+When building your project Unity ignores everything that is inside the **Editor** (Assets/Editor) folder. The scripts inside **Assets/SceneForge** are made to only execute inside the editor, so in theory there will not not cause any issues. Though **I do not** recommend leaving them inside your scenes as they are only used in the editor. In order to clean them from your scenes before build, check **Package Clean Up** page in this documentation.
 
 
 

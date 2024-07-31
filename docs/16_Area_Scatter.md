@@ -15,8 +15,9 @@ You can open the point scatter settings inspector by pressing **Shift + S** and 
 - **Object Count** (If checked ignores the **Scatter Density** and instead sets object count between **Min Count** and **Max Count**)
 - **Fall-Off Curve** (The curve defines the density of the prefabs based on the distance from the center)
 - **Hit Layers** (List of layers that the point scatter raycast will collide with) 
-- **Use Surface Normal** (Should the prefab be oriented based on the surface normal)
-- **Random Rotation** (Generates random rotation between the specified min and max values)
+- **Align with normal (%)** (Aligns the object with the surface up direction based on %)
+- **Align with direction (%)** (Aligns the object with the surface forward direction based on %)
+- **Add random rotation (%)** (Allows you to add random rotation around the local orientation of the object. **Note: this happens after the object has been aligned with the terrain and can cause unexpected results if using both**)
 - **Prefab Properties**
 
 	- **Weight** (The chance of this prefab being placed)

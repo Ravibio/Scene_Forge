@@ -2,6 +2,7 @@
 # Default Scene Forge shortcuts
 
 This is a list of the default shortcuts. There are several states or groups of shortcuts that can be used in certain functionalities of the tool. You can modify the default shortcuts from the settings menu located in **Tools/Scene Forge/Settings**.
+Make sure that the scene view is the current active window when using shortcuts.
 
 >*By default the shortcuts will be displayed at the bottom of the scene view. This can be enabled/disabled by going to **Tools/Scene Forge** and selecting **Shortcuts Display**.*
 
@@ -22,6 +23,8 @@ This is a list of the default shortcuts. There are several states or groups of s
 - **Space** is used to place/scatter a prefab
 - **Shift + S** is used to open the Point Scatter presets settings inspector
 - **Esc** is used to exit the Point Scatter functionality
+- **R** key is used to change the next object to be placed
+- **T** key is used to show/hide the handles
 
 ---
 

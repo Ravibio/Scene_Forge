@@ -15,8 +15,9 @@ Create a  **SF Mesh Group** tag  and set it to the mesh group object
 Create a simple box and add it to the group as a child
 
 **4. Presets**
-At this point in order to use you need to have a scatter preset, Terrain Scatter Group and a terrain. If you don't check out the Quick Start in the **Terrain Scatter** page in this documentation.
-Once you have a preset, a terrain and a terrain scatter group place you boolean object on the terrain and press **Update**
+At this point in order to use you need to have a terrain scatter preset, Terrain Scatter Group and a terrain. If you don't check out the Quick Start in the [**Terrain Scatter**](https://scene-forge.readthedocs.io/en/latest/22_Terrain_Scatter/) page in this documentation.
+
+Once you have a preset, a terrain and a terrain scatter group, press **Update** on the Boolean Group or Scatter Group game object.
 
 ## Notes
 
@@ -36,7 +37,7 @@ If you are using mesh colliders in your objects I recommend setting them as Conv
 
 - **Tag** - parent object is required to have the **SF Mesh Group** tag 
 
-- **Collider** - mesh objects are required to have a collider in order for the algorithm to be able to use them as a booleans and remove intersecting objects.
+- **Collider** - mesh objects are required to have a collider in order for the algorithm to be able to use them as booleans and remove intersecting objects.
 
 - **Convex Colliders** - If using Mesh Colliders make sure that they can be set to Convex. The algorithm uses method [ClosestPoint()](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Collider.ClosestPoint.html) in order to determine if a point is inside the collider or not. This method requires that Mesh Colliders are set to Convex = True. The program will automatically try and set Convex to True for the duration of the process but if your mesh exceeds the limit a warning will appear. **You can disable the use of "ClosestPoint()" in the preset settings but that will increase process times**. (Mesh Collider Limits)
 

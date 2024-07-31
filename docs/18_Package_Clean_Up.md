@@ -35,7 +35,7 @@ The inspector provides several options for cleaning the Scene Forge tool. In cas
  
  1.  Use the **Check All Scenes** in order to find if any Scene Forge components are present in your scenes.
  2.  Open those scenes one by one and use the **Clean Current Scene** functionality inside  **Package Clean Up** window in order to remove any Scene Forge components from the scene.
- 3.  Once you have cleaned your scenes you can delete the root folder of the Scene Forge tool. If you don't know where it is you can use the **Search Bar** to locate it. The root folder is called "Scene Forge".
+ 3.  Once you have cleaned your scenes you can delete the root folder of the Scene Forge tool in the Editor folder. If you don't know where it is you can use the **Search Bar** to locate it. The root folder is called **"Scene Forge"**. You will also find a **Scene Forge** folder outside the Editor folder that contains several more script components. Delete that too.
  4.  Restart your project in order to confirm that everything was removed cleanly.
 
 #### Important, make sure that your scenes are not using any of the Time of Day Presets before deleting! They are found inside Scene Forge/Assets/Post Proccess Volumes. You could loose your scene lights, HDRIs or PP Volumes!

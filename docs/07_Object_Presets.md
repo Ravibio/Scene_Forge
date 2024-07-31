@@ -1,5 +1,4 @@
 ﻿
-
 # Object Presets
 
 Object presets allows you to add your own objects to the **Add menu** (Shift+A). Objects are grouped together by preset name.
@@ -11,7 +10,7 @@ Adding Object Presets can happen in two ways:
 - Pressing **Shift+S** in the scene view and selecting **Object Presets**
 - From the toolbar by navigating to **Tools/Scene Forge/Prototyping/Object Preset**
 
-After adding, the object presets will appear in the add menu (Shift+A).
+After adding, the object presets will appear in the add menu (**Shift+A**).
 
 
 
