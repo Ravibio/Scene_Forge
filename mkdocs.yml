@@ -2,7 +2,7 @@ site_name: Scene Forge
 nav:
 - Getting Started:
   - What is Scene Forge?: index.md
-  - Getting Started: Getting_Started.md
+  - Getting Started: 02_Getting_Started.md
 - Systems:
   - Prototype Objects: 03_Prototype_Objects.md
   - Collections: 04_Collections.md
@@ -20,6 +20,9 @@ nav:
   - Point Scatter: 15_Point_Scatter.md
   - Area Scatter: 16_Area_Scatter.md
   - Mesh Scatter: 17_Mesh_Scatter.md
+  - Terrain Scatter: 22_Terrain_Scatter.md
+  - Terrain Scatter Booleans: 23_Terrain_Scatter_Booleans.md
+  - Terrain Scatter Meshes: 24_Terrain_Scatter_Meshes.md
 - FAQ:
   - Package Clean Up: 18_Package_Clean_Up.md
   - Shortcuts: 19_Shortcuts.md
