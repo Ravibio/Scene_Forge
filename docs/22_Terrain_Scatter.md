@@ -79,7 +79,7 @@ You can open the point scatter settings inspector by pressing **Shift + S** and 
 	- **Use textures** (If set to True, allows you to specify textures instead of terrain layers)
 	- **Invert** (If set to True, inverts the result)
 	- **Terrain layers** (If Use textures is False. Allows you to specify terrain layers where objects will be placed)
-	- **Biome textures** (If Use textures if True. Allows you to specify terrain textures where objects will be placed. **Note: place Albedo textures used by the terrain layers**)
+	- **Biome textures** (If Use textures is True. Allows you to specify terrain textures where objects will be placed. **Note: place Albedo textures used by the terrain layers**)
 
 
 - **Prefab settings**

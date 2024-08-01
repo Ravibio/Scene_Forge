@@ -18,6 +18,7 @@ Once enabled most features become accessible through the use of shortcuts.
 The most commonly used are:
 - **Shift + S** used to open the functions menu
 - **Shift + A** used to add prototype objects to the scene
+- **F5** used to enable/disable the tool
 
 >**Make sure that the scene view is the current active window when using shortcuts.**
 
@@ -54,7 +55,7 @@ Inside the inspector you can either manually drag and drop your prefabs or you c
 Simple explanation of what the different conversion methods are:
 
 - **Match Model Size** replaces the prototype object with the prefab that best matches its average bounds size.
--  **Random** does what you've already guessed. It simply chooses a random prefab for every object. Can be useful when dealing with prefabs that don't have much size variation.
+-  **Random Match (Bounds)** does what you've already guessed. It simply chooses a random prefab for every object. Can be useful when dealing with prefabs that don't have much size variation.
 -  **Match Specific Axis** unlike Match Model Size this method only looks at the specified axis of the prototype objects size and finds a match for it. For example if you have trees with different heights using this method will ensure that every tree prefab will match the prototype objects **Y** size perfectly instead of its average.
 
 Once you have set your settings the final step is to click the **Convert** button. The workflow is non-destructive so you can experiments and iterate with different settings and prefabs. 

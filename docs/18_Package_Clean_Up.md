@@ -3,7 +3,7 @@
 
 Package clean up inspector window is located in the top bar **Tools/Scene Forge/Package Clean Up**
 
-The inspector provides several options for cleaning the Scene Forge tool. In case of saving errors or removing the package from your project cleanly.
+The inspector provides several options for cleaning the Scene Forge tool. In case of errors, issues with presets or removing the package from your project cleanly.
 
 # Inspector Options
 
@@ -28,6 +28,9 @@ The inspector provides several options for cleaning the Scene Forge tool. In cas
 - Point scatter presets
 - Area scatter presets
 - Mesh scatter presets
+- Object presets
+- Object convert settings
+- Terrain scatter presets
 
 # How to remove Scene Forge 
 
@@ -38,7 +41,7 @@ The inspector provides several options for cleaning the Scene Forge tool. In cas
  3.  Once you have cleaned your scenes you can delete the root folder of the Scene Forge tool in the Editor folder. If you don't know where it is you can use the **Search Bar** to locate it. The root folder is called **"Scene Forge"**. You will also find a **Scene Forge** folder outside the Editor folder that contains several more script components. Delete that too.
  4.  Restart your project in order to confirm that everything was removed cleanly.
 
-#### Important, make sure that your scenes are not using any of the Time of Day Presets before deleting! They are found inside Scene Forge/Assets/Post Proccess Volumes. You could loose your scene lights, HDRIs or PP Volumes!
+#### Important, make sure that your scenes are not using any of the Time of Day Presets before deleting! They are found inside Scene Forge/Assets/Post Process Volumes. You could loose your scene lights, HDRIs or PP Volumes!
 
 # Troubleshoot
 

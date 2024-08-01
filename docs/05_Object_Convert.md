@@ -11,14 +11,19 @@ You can find the **Objects Convert** window inside the **Functions** menu by pre
 
 Once open you will find all your scene collections listed their.
 
-**Field Properties:**
 
-- **Settings**
+- **Methods**
 
-	- Method **Match Models Size** matches the average size of the prototype bounds to the average size of the prefab bounds.
-	- Method **Random** chooses a random prefab for every object
-	- Method **Match Specific Axis**, unlike Match Model Size this method only looks at the specified axis of the prototype objects size and finds a match for it. For example if you have trees with different heights using this method will ensure that every tree prefab will match the prototype objects **Y** size perfectly instead of its average.
-	- **Don't Change Scale** when checked won't change the size of the prefab after matching it. Matching happens at 1:1 scale and after that the prefab is scaled to match the size of the prototype as close as possible. This option disables that. 
+	-  **Match Models Size** matches the average size of the prototype bounds to the average size of the prefab bounds.
+		-	**Requires that both prototype and prefab objects have a renderer component!**
+	-  **Random Match (Bounds)** chooses a random prefab for every object. It also matches the prefab size to the prototype bounds size
+		- **Requires that both prototype and prefab objects have a renderer component!**
+	- **Random Match (No Bounds)** uses a random system to pair prototypes and prefabs.
+	- **Match Object Name** matches prototypes and prefabs by name.
+	-  **Match Specific Axis**, unlike Match Model Size this method only looks at the specified axis of the prototype objects size and finds a match for it. For example if you have trees with different heights using this method will ensure that every tree prefab will match the prototype objects **Y** size perfectly instead of its average.
+		-  **Requires that both prototype and prefab objects have a renderer component!**
+
+- **Match Scale** when checked won't change the size of the prefab after matching it. Matching happens at 1:1 scale and after that the prefab is scaled to match the size of the prototype as close as possible. This option disables that. 
 	
 - **Folder Path** is used to load all prefabs from a specified project folder.
 - **Parent Name** specifies the name of the parent that will hold the new prefabs.

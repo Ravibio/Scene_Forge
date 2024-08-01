@@ -4,7 +4,7 @@
 Being in a position of support has taught me how important it is to get adequate information on an issue.
 Screenshots, gifs and videos of issues are the best way to help me resolve your issue. By being linked this page I am requesting additional information to assist with a support issue.
 
-> *Without a visual form of recreating the issue all I can do is speculate. Please provide me gifs / videos / images of the issues to help me resolve it as complete and quickly as possible.*
+> *Without a visual form of recreating the issue all I can do is speculate. Please provide me logs/ images of the issues to help me resolve it as complete and quickly as possible.*
 
 Text descriptions can only go so far and I often ask users for more information so the issues experienced can be recreated and resolved.
 
