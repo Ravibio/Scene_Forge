@@ -33,7 +33,7 @@ Once open you will find all your scene collections listed their.
 	- **Use Larges Mesh** will only match based on the size of the larges mesh. For example if you have a house prefab that is made out of a single mesh but has small attachments like a chimney, this method will ignore the chimney and only take the size of the house.
 	- **Combine Meshes** will combine the size of all meshes. For example if you have a house that is made out of different room segments, this method will combine the sizes of all rooms and match based on that.
 
->*For prefabs with **LOD group** the function will only use the meshes found in LOD_0 of the group!*
+>*For prefabs with **LOD group** the function will only use the renderers found in LOD_0 of the group!*
 
 # Requirements
 
@@ -43,4 +43,4 @@ The option will only be available if there are Scene Forge collections present i
 # Limitations
 
 - The conversion will only work on prototype objects that have the **SF_Prototype** component attached and are inside a collection.
-- The prototype objects must have a Renderer component attached (Needed to calculate the bounds of the object).
+- The prototype objects must have a Renderer component attached (Needed when converting using methods that require bounds).

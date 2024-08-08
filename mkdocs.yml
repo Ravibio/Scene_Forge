@@ -16,6 +16,7 @@ nav:
   - Random Rottation: 12_Random_Rotation.md
   - Random Scale: 13_Random_Scale.md
   - Time of Day Presets: 14_Time_of_Day_Preset.md
+  - Asset Library: 25_Asset_Library.md
 - Scattering:
   - Point Scatter: 15_Point_Scatter.md
   - Area Scatter: 16_Area_Scatter.md

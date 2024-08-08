@@ -5,12 +5,15 @@ Used to scatter prefabs on the Unity Terrain. To scatter first you have to creat
 
 # Quick Start
 
-**1. Create Terrain Scatter preset** - In the scene view press **Shift + S** to open the functions menu and navigate to **Scatter/Terrain Scatter/Presets Editor** or from the top bar **Tools/Scene Forge/Scatter/Terrain Scatter/Presets Editor**.
+**1. Create Terrain Scatter preset** 
+In the scene view press **Shift + S** to open the functions menu and navigate to **Scatter/Terrain Scatter/Presets Editor** or from the top bar **Tools/Scene Forge/Scatter/Terrain Scatter/Presets Editor**.
 Create a preset and navigate to the prefabs tab to assign a prefab. If you don't have ready prefabs you can toggle **Use placeholder** and click on the button next to the field which will allow you to chose a placeholder from the asset library.
 
-**2. Create Terrain Scatter Group** - In the scene view press **Shift + S** to open the functions menu and navigate to **Scatter/Terrain Scatter/Add Scatter Group** or from the top bar **Tools/Scene Forge/Scatter/Terrain Scatter/Add Scatter Group**. This will add and select a Terrain Scatter game object.
+**2. Create Terrain Scatter Group** 
+ In the scene view press **Shift + S** to open the functions menu and navigate to **Scatter/Terrain Scatter/Add Scatter Group** or from the top bar **Tools/Scene Forge/Scatter/Terrain Scatter/Add Scatter Group**. This will add and select a Terrain Scatter game object.
 
-**3. Scattering** - Create a Unity Terrain and assign it to the Terrain Scatter Group game object (Tile 1 field). Press **Scatter**.
+**3. Scattering** 
+ Create a Unity Terrain and assign it to the Terrain Scatter Group game object (Tile 1 field). Press **Scatter**.
 
 # Preset Properties
 
@@ -24,7 +27,7 @@ You can open the point scatter settings inspector by pressing **Shift + S** and 
 	- **Prefab Count** (Number of Prefabs)
 	- **Align with normal (%)** (Aligns the object with the terrain up direction based on %)
 	- **Align with direction (%)** (Aligns the object with the terrain forward direction based on %)
-	- **Add random rotation (%)** (Allows you to add random rotation around the local orientation of the object. **Note: this happens after the object has been aligned with the terrain and can cause unexpected results if using both**)
+	- **Add random rotation (%)** (Allows you to add random rotation around the local orientation of the object. **Note: this happens after the object has been aligned with the terrain and can cause unexpected results if being used together with "Align with normal" or "Align with direction"**)
 	- **Use object scale** (If True scattered objects will use the scale they were originally set as)
 	- **Per Component** (If **Use object scale** is set to False. Allows you to specify min and max scale individually for every object. New options for scale will appear under every prefab in the Prefabs tab. 
 	- **Min and Max Scale** (If **Use object scale** is set to False. You can set the min and max scale of objects)
@@ -93,4 +96,5 @@ You can open the point scatter settings inspector by pressing **Shift + S** and 
  
  
  >Your presets get auto saved after making changes like adding new preset, deleting, changing values while scattering and closing the inspector. And if there is a Terrain Scatter Object that uses the selected preset with Auto Update set to True any changes will result in rescattering.
+
 

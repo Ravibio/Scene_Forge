@@ -12,7 +12,7 @@ To create terrain scatter boolean group, in the scene view press **Shift + S** t
 Create a  **SF Boolean Group** tag  and set it to the boolean group object
 
 **3. Add booleans**
-Create a simple box and add it to the group as a child
+Create a simple box and add it to the group as a child.
 
 **4. Presets**
 At this point in order to use you need to have a terrain scatter preset, Terrain Scatter Group and a terrain. If you don't check out the Quick Start in the [**Terrain Scatter**](https://scene-forge.readthedocs.io/en/latest/22_Terrain_Scatter/) page in this documentation.
@@ -38,5 +38,5 @@ If you want to use mesh colliders as booleans I recommend setting them as Convex
 
 - **Collider** - boolean objects are required to have a collider
 
-- **Convex Colliders** - If using Mesh Colliders make sure that they can be set to Convex. The algorithm uses method [ClosestPoint()](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Collider.ClosestPoint.html) in order to determine if a point is inside the collider or not. This method requires that Mesh Colliders are set to Convex = True. The program will automatically try and set Convex to True for the duration of the process but if your mesh exceeds the limit a warning will appear. **You can disable the use of "ClosestPoint()" in the preset settings but that will increase process times**. (Mesh Collider Limits)
+- **Convex Colliders** - If using Mesh Colliders make sure that they can be set to Convex. The algorithm uses method [ClosestPoint()](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Collider.ClosestPoint.html) in order to determine if a point is inside the collider or not. This method requires that Mesh Colliders are set to Convex = True. The program will automatically try and set Convex to True for the duration of the scatter but if your mesh exceeds the limit a warning will appear. **You can disable the use of "ClosestPoint()" by setting Collider Limits option to true in the preset settings, but that will increase process times**.
 
