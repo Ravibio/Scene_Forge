@@ -33,7 +33,6 @@ Also provides a way to adjust the guides to better fit your scene view:
 - **Screen Width Offset** (Adjusts the scene view width)
 -  **Screen Height Offset** (Adjusts the scene view height)
 
->*By default the **Screen Height Offset** is set to **-47**, because **Screen.height** used in the function returns the height of the scene view inspector window instead of the scene view itself.*
 
 # Requirements
 

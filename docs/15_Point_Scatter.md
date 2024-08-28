@@ -1,7 +1,7 @@
 ﻿
 # Point Scatter
 
-Used to scatter chosen prefabs on surfaces by simple point and click. To scatter prefabs first you have to create point scatter presets. Each preset can be used to scatter different types of prefabs. 
+Used to scatter chosen prefabs on mouse position by simple point and click. To scatter prefabs first you have to create point scatter presets. Each preset can be used to scatter different types of prefabs. 
 
 
 # Presets
@@ -9,6 +9,7 @@ Used to scatter chosen prefabs on surfaces by simple point and click. To scatter
 You can open the point scatter settings inspector by pressing **Shift + S** and navigating to **Scatter/Point Scatter/Presets Editor** or the top bar **Tools/Scene Forge/Scatter/Point Scatter**.
 
 **Preset Properties:**
+
 - **Name** (Name of the preset)
 - **Hit Layers** (List of layers that the point scatter raycast will collide with) 
 - **Align with normal (%)** (Aligns the object with the surface up direction based on %)

@@ -1,4 +1,5 @@
-﻿# Terrain Scatter
+﻿
+# Terrain Scatter
 
 Used to scatter prefabs on the Unity Terrain. To scatter first you have to create terrain scatter presets and then create terrain scatter group objects that use the presets. Each preset can be used to scatter different types of prefabs. 
 
@@ -13,7 +14,7 @@ Create a preset and navigate to the prefabs tab to assign a prefab. If you don't
  In the scene view press **Shift + S** to open the functions menu and navigate to **Scatter/Terrain Scatter/Add Scatter Group** or from the top bar **Tools/Scene Forge/Scatter/Terrain Scatter/Add Scatter Group**. This will add and select a Terrain Scatter game object.
 
 **3. Scattering** 
- Create a Unity Terrain and assign it to the Terrain Scatter Group game object (Tile 1 field). Press **Scatter**.
+ Create a Unity Terrain and assign it to the Terrain Scatter Group terrain object field (Tile 1 field). Press **Scatter**.
 
 # Preset Properties
 

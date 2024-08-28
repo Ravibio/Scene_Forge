@@ -57,7 +57,7 @@ If none of the above structures are found by the function. The objects will be s
 
 # Limitations
 
-Won't work with complex objects with **more than 1 level of children**. If the function encounters a complex object it will skip it and write a log in the console.
+Won't work with complex objects with **more than 1 level of children**. If the function encounters a complex object it will skip it and display a warning log.
 
 **Complex object structure example:**
 

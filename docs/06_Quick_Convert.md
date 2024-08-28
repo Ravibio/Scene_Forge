@@ -18,6 +18,6 @@ If you don't see the overlay window make sure that you have overlays enabled. Pr
 
 # Requirements
 
-Prototype objects with the SF_Prototype component attached. 
+Prototype objects need to have the SF_Prototype component attached. 
 
 

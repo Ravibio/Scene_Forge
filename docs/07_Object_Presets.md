@@ -16,6 +16,6 @@ After adding, the object presets will appear in the add menu (**Shift+A**).
 
 # Requirements
 
-Presets will only appear in the add menu if they have assigned prefabs.
+Presets will only appear in the add menu if they have been assigned objects.
 
 

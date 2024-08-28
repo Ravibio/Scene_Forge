@@ -52,7 +52,7 @@ You can add and modify collections in your scenes by pressing the **M** key or n
 Once you have created your prototype objects and collections you can replace them with your actual game prefabs by opening the Convert Inspector Window. You can find it inside the **Shift+S** Functions menu, **Convert/Convert Objects** or the top bar items **Tools/Scene Forge/Convert Objects**.
 Inside the inspector you can either manually drag and drop your prefabs or you can use **Folder Path** from where the tool will automatically load every prefab it can find. 
 
-Simple explanation of what the different conversion methods are:
+Simple explanation of what the base conversion methods are:(You can find more about conversion [here](https://scene-forge.readthedocs.io/en/latest/05_Object_Convert/))
 
 - **Match Model Size** replaces the prototype object with the prefab that best matches its average bounds size.
 -  **Random Match (Bounds)** does what you've already guessed. It simply chooses a random prefab for every object. Can be useful when dealing with prefabs that don't have much size variation.
